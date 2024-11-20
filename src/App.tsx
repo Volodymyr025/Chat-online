@@ -11,7 +11,7 @@ export interface User {
   room: string;
 }
 
-const socket = io("https://socket-io-ngr4.onrender.com:8080");
+const socket = io("https://socket-io-ngr4.onrender.com");
 
 const name = window.prompt("Whats your name?") || "User";
 window.sessionStorage.setItem("name", name);
